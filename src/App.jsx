@@ -252,6 +252,8 @@ export default function App({
         1900 and also how much life expectancy has increased. The amount of people over 80 
         years old (represented in light green bars) are much higher in 2000 compared to that 
         in 1900.
+
+        <a href="https://github.com/bestwatana/info-474-bestwatana.git">Link to GitHub Repo</a>
       </p> 
       </div>
     </div>

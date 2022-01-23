@@ -12,7 +12,7 @@ import { LegendOrdinal } from "@visx/legend";
 import { localPoint } from "@visx/event";
 import census2000 from "./census2000";
 
-// This code is already from airbnb.io's Bar Stack visualization example.
+// This code structure is from airbnb.io's Bar Stack visualization example.
 
 let census = new Object();
 for (let i = 0; i < census2000.length; i++) {
@@ -235,13 +235,24 @@ export default function App({
           justifyContent: "center",
           fontSize: "14px",
         }}
-      >
+        >
+        <text>Age Range</text>
         <LegendOrdinal
           scale={colorScale}
           direction="row"
           labelMargin="0 15px 0 0"
         />
       </div>
+      <p>When I look through the U.S. Population dataset that is given for this assignment, 
+        I felt like it is possible to answer the question: “What is the difference in total 
+        U.S population between 1900 and 2000?” The visualization I chose to represent the 
+        U.S Population data is a stacked bar chart comparing the total population of the two 
+        years with each bar representing different age ranges. I believe that this 
+        visualization best showcase how much more people we have in the 2000 compared to 
+        1900 and also how much life expectancy has increased. The amount of people over 80 
+        years old (represented in light green bars) are much higher in 2000 compared to that 
+        in 1900.
+      </p> 
       </div>
     </div>
   );

@@ -303,7 +303,7 @@ export default function App({
         </p>
         <p
           style={{
-            paddingBottom: "4rem",
+            paddingBottom: "2rem",
           }}
         >
           Another chart that I believe revealed important insight is the
@@ -315,8 +315,20 @@ export default function App({
           domestic traffic at LAX has recovered at a faster rate than
           international traffic as seen in the previous visualization. Each pie 
           chart sizes are different allowing us to see how the number of 
-          passengers decrease or increase each year.
+          passengers decrease or increase each year.         
         </p>
+        <h3>Focus Questions</h3>
+        <ul>
+          <li>
+            Which terminal is overall the busiest at LAX?
+          </li>
+          <li>
+            How has LAX handle international and domestic passengers?
+          </li>
+          <li>
+            How has COVID-19 affected passenger traffic at LAX?
+          </li>
+        </ul>
         <img
           src={BarChart}
           style={{
@@ -349,7 +361,7 @@ export default function App({
             paddingBottom: "4rem",
           }}
         >
-          This line showcases the average number of arrival and departure
+          This line chart showcases the average number of arrival and departure
           passengers each month at LAX. Overall, LAX sees more passengers during
           the summer season. It is also noteworthy to see that the number of
           arrival passengers is almost always slightly higher than the number of
@@ -387,9 +399,9 @@ export default function App({
         >
           Here you can understand the impact of the COVID-19 pandemic on
           passenger count at LAX airport. The number of passengers decreased
-          significantly for both domestic and international passengers in 2020.
-          However, domestic traffic seems to be recovering at a faster rate than
-          international traffic.
+          dramatically for both domestic and international passengers in 2020.
+          However, based on 2021 data, domestic traffic seems to be recovering 
+          from the pandemic at a faster rate than international traffic.
         </p>
         <img
           src={AreaChart}
@@ -427,7 +439,9 @@ export default function App({
           domestic passengers each year at LAX. The number of international
           passengers has always exceeded 25% until the pandemic hit. In 2021,
           less than 20% of the total number of passengers at LAX are
-          international passengers.
+          international passengers. The pie chart in 2020 is also significantly
+          smaller than other graphs as travel restrictions are heavily imposed
+          in that year.
         </p>
       </div>
     </div>

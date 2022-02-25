@@ -40,9 +40,9 @@ const Pie2 = ({ width = 600, height = 600 }) => {
                   <tspan fontWeight={700} x={0}>
                     {pieSlice.data.Terminal}
                   </tspan>
-                  {/* <tspan x={0} y={`${1.1}em`}>
+                  <tspan x={0} y={`${1.1}em`}>
                     {pieSlice.data.Avg_Passenger_Count}
-                  </tspan> */}
+                  </tspan>
                 </text>
               </g>
             );

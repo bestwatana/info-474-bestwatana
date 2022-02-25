@@ -456,11 +456,19 @@ export default function App({
           total passenger count from 2006-2021.
         </p>
         <p>
+          There are others ways I can visually answer the question. A bar graph
+          showcasing number of passengers in each bar could be effective in
+          comparing differences between each terminal’s data. I, however, landed
+          with a pie chart because it gives the the audience a better sense of
+          understanding that this data is about passenger “share” of each
+          terminal at LAX.
+        </p>
+        <p>
           In the development of this visualization, I initially wanted to build
           up on airbnb.io’s pie chart example, but I was unable to modify them
           the way I wanted to because of my lack of understanding of the code. I
           followed Professor Colin’s advice by starting off with a simple static
-          pie chart I can build by myself and add interactivity from there.
+          d3's pie chart I can build by myself and add interactivity from there.
           Overall, it took me about 7-8 hours (break times in between not
           included) to finish this project. I would say that figuring out how to
           make the visualization interactive was the most difficult as I am
